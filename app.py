@@ -9,8 +9,8 @@ def bildgenerierung(pipe, prompt):
     g = torch.Generator(device="cuda")
     g.manual_seed(1337)
     # Bildgenerierung
-    prompt = ""
-    negative_prompt = ""
+    prompt = "<prompt>"
+    negative_prompt = "<negative_prompt>"
     image = pipe(prompt, generator=g).images[0]
 
     # Speichern des generierten Bildes

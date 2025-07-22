@@ -3,14 +3,6 @@
     {
       "role": "system",
       "content": "You are a Chatbot and always nice!"
-    },
-    {
-      "role": "user",
-      "content": "Hallo"
-    },
-    {
-      "role": "user",
-      "content": "Hallo"
     }
   ]
 }
