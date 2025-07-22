@@ -1,0 +1,24 @@
+{
+    "messages": [
+        {
+            "message": "Hallo",
+            "sender": "andre"
+        },
+        {
+            "message": "Hi!",
+            "sender": "other"
+        },
+        {
+            "message": "grapefruit-slice.jpg",
+            "sender": "image"
+        },
+        {
+            "message": "katze.jpg",
+            "sender": "image"
+        },
+        {
+            "message": "lol",
+            "sender": "andre"
+        }
+    ]
+}
