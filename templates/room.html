@@ -24,7 +24,7 @@
         } else if (sender === "image"){
             var content = `
                 <li class="message-item ${senderIsUser ? "self-message-item" : "peer-message-item"}">
-                    <img class="message-item ${senderIsUser ? "self-message-item" : "peer-message-item"}" src="http://localhost:8001/static/images/${message}" />
+                    <img class="message-item ${senderIsUser ? "self-message-item" : "peer-message-item"}" src="http://localhost:5000/static/images/${message}" />
                     <small class="${senderIsUser ? "muted-text" : "muted-text-white"}">${new Date().toLocaleString()}</small>
                 </li>
             `;
