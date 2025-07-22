@@ -22,7 +22,7 @@ def bildgenerierung(pipe, prompt):
 
 app = Flask(__name__)
 
-pipeline = pipeline(task="text-generation", model="Orenguteng/Llama-3-8B-Lexi-Uncensored", torch_dtype=torch.bfloat16, device_map="auto")
+pipeline = pipeline(task="text-generation", model="<llm name>", torch_dtype=torch.bfloat16, device_map="auto")
 
 model_path = "juggernaut.safetensors"
 pipe = StableDiffusionPipeline.from_single_file(
